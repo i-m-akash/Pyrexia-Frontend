@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import "./login.css";
+import { Link } from 'react-router-dom';
 import { BASE_URL } from '../BaseUrl';
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -44,9 +45,9 @@ const Login = () => {
                         placeholder='Password'
                         onChange={(e) => setPassword(e.target.value)}
                     />
-                    <p className='message'><a href="/forgotpassword">Forgot Password?</a></p>
+                    <p className='message'><Link to="/forgotpassword">Forgot Password?</Link></p>
                     <button type="submit">Login</button>
-                    <p className='message'>Not registered? <a href="/signup">Create an account</a></p>
+                    <p className='message'>Not registered? <Link to="/signup">Create an account</Link></p>
                 </form>
                 <button className='login-with-google-btn' onClick={loginWithGoogle}>
                     Sign In With Google
