@@ -1,7 +1,7 @@
 import React from 'react';
 import video1 from '../Images/Trailer Clip.mp4';
 import { useNavigate } from 'react-router-dom';
-
+import Slider1 from "../Animation/slider.js";
 import CountdownTimer from './timer';
 import About from './about';
 import HomeEvent from './HomeEvent';
@@ -71,6 +71,9 @@ const Home = () => {
         
         <div className='py-4 bg-black'> <FAQ/></div>
         <div className='py-4 bg-black'> <EventSchedule/></div>
+<div className='relative z-10  bg-gradient-to-b from-black to-[#001f3f] pt-10 pb-16 '> 
+              < Slider1/>
+            </div>
 
         {/* Footer */}
         <div className="bg-[#001f3f]">
