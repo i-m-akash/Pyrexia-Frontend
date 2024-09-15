@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import "./login.css";
 import { BASE_URL } from '../BaseUrl';
+import { Link } from 'react-router-dom'
 function Signup() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -46,7 +47,7 @@ function Signup() {
                         onChange={(e) => setPassword(e.target.value)}
                     />
                     <button type="submit">Signup</button>
-                    <p className='message'>Registered? <a href="/login">Login</a></p>
+                    <p className='message'>Registered? <Link to="/login">Login</Link></p>
                 </form>
 
             </div>
