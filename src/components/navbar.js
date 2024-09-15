@@ -40,8 +40,8 @@ const Navbar = () => {
       {/* <a href="/profile" className={buttonClasses}>Profile</a> */}
       <Link to="/starnight" className={buttonClasses}>Star Night</Link>
       <a href="https://drive.google.com/file/d/12CP4PlhrVhJ4Hi_NVYIhn5B-wWi2q3kr/view?usp=drive_link" className={buttonClasses}>Brochure</a>
-      // <button onClick={handleLogout} className={buttonClasses}>Logout</button>
-      // <Link to="/cart" className={buttonClasses}> &#128722;</Link>
+{/*<button onClick={handleLogout} className={buttonClasses}>Logout</button> */}
+{/*  <Link to="/cart" className={buttonClasses}> &#128722;</Link> */}
     </>
   );
 
@@ -51,8 +51,8 @@ const Navbar = () => {
       <Link to="/events" className={buttonClasses}>Events</Link>
       <Link to="/starnight" className={buttonClasses}>Star Night</Link>
       <a href="https://drive.google.com/file/d/12CP4PlhrVhJ4Hi_NVYIhn5B-wWi2q3kr/view?usp=drive_link" className={buttonClasses}>Brochure</a>
-      // <Link to="/login" className={buttonClasses}>Login</Link>
-      // <Link to="/cart" className={buttonClasses}> &#128722;</Link>
+{/* <Link to="/login" className={buttonClasses}>Login</Link> */}
+      {/* <Link to="/cart" className={buttonClasses}> &#128722;</Link> */}
     </>
   );
   
