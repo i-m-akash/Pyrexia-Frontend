@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { useLocation} from 'react-router-dom';
 import { BASE_URL } from '../BaseUrl';
 const EmailVerification = () => {
@@ -32,9 +33,9 @@ const EmailVerification = () => {
       <h1 className='text-4xl font-semibold mb-4 text-[#001f3f] '>Email Verification</h1>
       <h2 className='text-lg mb-6 text-[#001f3f] '>{message}</h2>
       {message === "Email verified" && (
-        <a href='/login' className='text-navy-500 hover:underline text-lg font-medium'>
+        <Link to='/login' className='text-navy-500 hover:underline text-lg font-medium'>
           Login
-        </a>
+        </Link>
       )}
     </div>
   </div>
