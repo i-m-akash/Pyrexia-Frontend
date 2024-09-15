@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0822ce91.css",
+    "main.js": "/static/js/main.89c053e2.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/Trailer Clip.mp4": "/static/media/Trailer Clip.1cf591b8dd0900e7b273.mp4",
+    "static/media/Sinfonia.jpg": "/static/media/Sinfonia.e21012c3bec0a52707ab.jpg",
+    "static/media/Velocity.jpg": "/static/media/Velocity.9f7515a7130dd9ef9537.jpg",
+    "static/media/Revealing soon (2).PNG": "/static/media/Revealing soon (2).81970588f9ee06f28050.PNG",
+    "static/media/Revealing soon (6).PNG": "/static/media/Revealing soon (6).49996bae42312cf4b024.PNG",
+    "static/media/Revealing soon.PNG": "/static/media/Revealing soon.2a9f29eb5fdc29156ce1.PNG",
+    "static/media/Thespians BGR.png": "/static/media/Thespians BGR.7dfe045bd4896362adb0.png",
+    "static/media/Revealing soon (5).PNG": "/static/media/Revealing soon (5).4b0c3978d6f480c9110c.PNG",
+    "static/media/Revealing soon (3).PNG": "/static/media/Revealing soon (3).7733b80a33f1a110f47a.PNG",
+    "static/media/ALFRESCO BGR.png": "/static/media/ALFRESCO BGR.f78ebacb8f08df35d769.png",
+    "static/media/Revealing soon (1).PNG": "/static/media/Revealing soon (1).dc3f75007797b38bfecc.PNG",
+    "static/media/CHOREA.jpg": "/static/media/CHOREA.d3c3df7dcc40df5d824f.jpg",
+    "static/media/Littmania.PNG": "/static/media/Littmania.15da456bce765998ccc7.PNG",
+    "static/media/cimg4.webp": "/static/media/cimg4.511b0f7eed282eba00cb.webp",
+    "static/media/ThunderBolts.webp": "/static/media/ThunderBolts.a8d305c55f425c604a31.webp",
+    "static/media/pyrexiaAbout.jpg": "/static/media/pyrexiaAbout.cb75f6a8913170330233.jpg",
+    "static/media/Kalakriti .jpg": "/static/media/Kalakriti .434a4d81e4a69796b8aa.jpg",
+    "static/media/logo.webp": "/static/media/logo.cf740376a173074de891.webp",
+    "index.html": "/index.html",
+    "main.0822ce91.css.map": "/static/css/main.0822ce91.css.map",
+    "main.89c053e2.js.map": "/static/js/main.89c053e2.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0822ce91.css",
+    "static/js/main.89c053e2.js"
+  ]
+}
