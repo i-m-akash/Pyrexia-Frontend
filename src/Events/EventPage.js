@@ -15,6 +15,7 @@ const EventPage = () => {
     setIsOpen(false);
   };
 
+  
   const events = {
     "Alfresco": [
       {
@@ -28,7 +29,7 @@ const EventPage = () => {
         minteamSize: "1",
         maxteamSize: "15",
         fees: {
-          perTeam: 200 ,
+          perTeam: 200,
           perPerson: '',
           singleBoy: '',
           singleGirl: '',
@@ -47,19 +48,20 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '9 pm',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/iAj4YXJDZD9iSNGy7"
       },
       {
         title: "Pictionary",
-        registrationFees: "40 per person",
+        registrationFees: "Rs.160 per team",
         status: "Inactive",
         image: "https://example.com/subevent1_1.jpg",
         tagline: '',
         description: "Words or pictures, which one’s got more appeal? Explore Pictionary, and let’s see what you feel.",
         teamSize: "",
-        minteamSize: "1",
-        maxteamSize: "15",
-        fees: { perTeam: "", perPerson: "40", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
+        minteamSize: "2",
+        maxteamSize: "4",
+        fees: { perTeam: "160", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -70,7 +72,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/yvbk1PMNrzbDcvp58"
       },
       {
         title: "Squid Game",
@@ -93,7 +96,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/Xz9xb8N2Mo8MomQ9A"
       },
       {
         title: "Paper Dance",
@@ -116,7 +120,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/xorQTwS7zrbEf7cz9"
       },
       {
         title: "Silent Giggles",
@@ -139,7 +144,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/miudPVVzfqYPf17bA"
       },
       {
         title: "Treasure Hunt",
@@ -162,7 +168,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/ttCSdBCqGNgQYDnw7"
       },
       {
         title: "Darty Secrets",
@@ -185,7 +192,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/Q6BKkAfeV9hsut297"
       },
       {
         title: "Songstravaganza",
@@ -208,7 +216,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/vCDPacmGsPnzg9af9"
       },
       {
         title: "SwiftMingle",
@@ -231,7 +240,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/fh1BZ5oRUhGaZery5"
       },
       {
         title: "Tambola",
@@ -254,7 +264,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/N8bnqkZgSKugnoAp7"
       },
       {
         title: "Evening Amore",
@@ -277,7 +288,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/PA67eJwyMheS3aqr9"
       },
       {
         title: "Musical Chairs",
@@ -300,7 +312,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/LLRR1ouWmPVfevCG9"
       },
       {
         title: "Soul Sync",
@@ -323,7 +336,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/yCZvAcqZHSwJKQ8i9"
       },
       {
         title: "Drape It",
@@ -346,19 +360,20 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/tedaFiCmKMtNae1M6"
       },
       {
         title: "Your Pace or Mine?",
-        registrationFees: "30 per person",
+        registrationFees: "120 per team",
         status: "Inactive",
         image: "https://example.com/subevent1_1.jpg",
         tagline: '',
         description: "Dumb Charades",
         teamSize: "",
-        minteamSize: "1",
-        maxteamSize: "15",
-        fees: { perTeam: "", perPerson: "30", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "", },
+        minteamSize: "3",
+        maxteamSize: "5",
+        fees: { perTeam: "120", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "", },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -369,7 +384,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/jV4jKHiFm4kaGkSR8"
       },
       {
         title: "Balloon Burst",
@@ -392,11 +408,12 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:""
       },
       // More events...
     ],
-"Chorea": [
+    "Chorea": [
       {
         title: "Nritya Sangam",
         registrationFees: "Solo: 150/- | Duet: 250/- | Group: 80/-(per head)",
@@ -405,9 +422,9 @@ const EventPage = () => {
         tagline: 'The Confluence of Classical Elegance',
         description: "A Classical/Folk dance competition is a celebration of tradition creativity and the enduring legacy of classical and folk dances creating a captivating experience that honours the depth and diversity of our cultural roots.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"150",Duet:"250",perhead:"80"},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "150", Duet: "250", perhead: "80" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -418,7 +435,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1Q9vZsmt70Fi9HolqA0xVdrNbzSCFyYL_/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1Q9vZsmt70Fi9HolqA0xVdrNbzSCFyYL_/view?usp=drive_link",
+        link:"https://forms.gle/EwXsXLp4ViiaeC487"
       },
       {
         title: "Ballismus",
@@ -428,9 +446,9 @@ const EventPage = () => {
         tagline: 'Dust off your boots and Dance.',
         description: "  Get ready to mesmerize the audience with your dancing skills! Ballismus is an inter-university dance competition that brings together talented dancers from across the country. Whether you’re a seasoned performer or an enthusiastic beginner, this platform is yours to shine. Choose your style- Western, Bollywood, or Fusion - and take the stage by storm!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"150",Duet:"250",perhead:"80"},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "150", Duet: "250", perhead: "80" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -441,7 +459,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1F7xah0Eg0EjdWMpfjt4lG82WbHedlZ0o/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1F7xah0Eg0EjdWMpfjt4lG82WbHedlZ0o/view?usp=drive_link",
+        link:"https://forms.gle/TdYq3iqqrhgfjUAs6"
       },
       {
         title: "Street Blaze",
@@ -451,9 +470,9 @@ const EventPage = () => {
         tagline: 'Turn up the heat, set the street on blaze',
         description: "Get ready to witness the energy passion and raw talent as dancers come together for an electrifying battle of rhythm and style. This is more than just a competition—it's a celebration of culture creativity and the unbreakable spirit of street dance. So, lace up your kicks, turn up the music, and get ready to feel the beat. The streets are calling—let the battles begin!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"100",Duet:"150",perhead:"50"},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "100", Duet: "150", perhead: "50" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -464,7 +483,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1loHlXShy4UrsYyS_PvuVoY8qcidAA1Oc/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1loHlXShy4UrsYyS_PvuVoY8qcidAA1Oc/view?usp=drive_link",
+        link:"https://forms.gle/ZQncr7wdD9E2kAHQA"
       },
       {
         title: "Adaptune",
@@ -474,9 +494,9 @@ const EventPage = () => {
         tagline: 'Step into the spotlight-Adaptune awaits your flair for dance',
         description: "Join us for a dynamic and exhilarating dance experience at 'ADAPTUNE'. In this one-of-a-kind event you'll dance to spontaneously selected viral songs revealed just one minute before you hit the floor. Whether you're a seasoned dancer or a novice looking for fun, this event promises a high-energy, interactive experience where every moment counts. Gather your friends, bring your best moves, and let the rhythm guide you through an unforgettable night of dance and excitement!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"2",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"80",Duet:"150",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "2",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "80", Duet: "150", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -487,7 +507,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/17nVDakfL9nVjZ-XTLBhGditnBKlTeEsZ/view"
+        rulebook: "https://drive.google.com/file/d/17nVDakfL9nVjZ-XTLBhGditnBKlTeEsZ/view",
+        link:"https://forms.gle/BhUFYRNz89zipBwk6"
       },
       {
         title: "Blossoming Steps – Couple Dance",
@@ -497,9 +518,9 @@ const EventPage = () => {
         tagline: 'Growing Together, One Dance at a Time',
         description: "Blossoming Steps' is a couple dance event that takes participants through a journey of relationship growth using Knapp's Model as inspiration.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"2",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"200",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "2",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "200", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -510,7 +531,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1gIpufCBxabeJpQaqbvAn3YXh_B-LRFAo/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1gIpufCBxabeJpQaqbvAn3YXh_B-LRFAo/view?usp=drive_link",
+        link:"https://docs.google.com/forms/d/e/1FAIpQLSfwu56HI6wrbXSFdy_1HWbYAD_-F_qPB71o4HE-RACx7iT3FA/viewform?usp=sf_link"
       },
 
     ],
@@ -524,9 +546,9 @@ const EventPage = () => {
         tagline: 'Transforming faces, from blank canvases to living art!',
         description: "Prepare to witness a kaleidoscope of colours, dazzling designs, and artistic mastery as participants transform faces into mesmerizing works of art.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"100",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "100", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -537,7 +559,8 @@ const EventPage = () => {
         date: '10-Oct-2024',
         venue: 'Mini Audi',
         time: '10:30AM- 12:30 PM',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/n4dsMxyxBJJFJAeV6"
       },
 
       {
@@ -548,9 +571,9 @@ const EventPage = () => {
         tagline: 'From Beans to Brushes,awaken your creativity with the mesmerizing aroma of art!',
         description: " Join our Coffee Painting Competition and let the rich hues of coffee brew beauty on your canvas.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"30",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "30", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -561,7 +584,8 @@ const EventPage = () => {
         date: '10-Oct-2024',
         venue: 'Mini Audi',
         time: '1:30-3:00 PM',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/pk2yhd9K5BiNkTd46"
       },
       {
         title: "Brushless Strokes",
@@ -571,9 +595,9 @@ const EventPage = () => {
         tagline: 'Explore the world beyond brushes & embrace the art of free expression!',
         description: "Unleash your hidden creativity and think outside the box to create a masterpiece with anything other than a brush.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"50",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "50", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -584,7 +608,8 @@ const EventPage = () => {
         date: '11-Oct-2024',
         venue: 'Mini Audi',
         time: '1:30-3:30 PM',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/btLcQrAa4UhATvZu7"
       },
       {
         title: "Acrylic Odyssey",
@@ -594,9 +619,9 @@ const EventPage = () => {
         tagline: 'Bold pigments blend, a symphony of art,With acrylic strokes, masterpieces start.',
         description: "With a boundless palette of colors and a canvas to make your own, let your brushstrokes tell a story, and vie for the title of The Master of Acrylics",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"80",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "80", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -607,7 +632,8 @@ const EventPage = () => {
         date: '10:00AM- 12:30 PM',
         venue: 'Mini Audi',
         time: '12-Oct-2024',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/zPt19DUj3Cwadj2X8"
       },
 
       {
@@ -618,9 +644,9 @@ const EventPage = () => {
         tagline: 'Transient Tattoos, Lasting Impressions!',
         description: "Unleash the full extent of your artistic prowess as you blend the vibrancy of acrylic paint with deft brushstrokes to craft stunning temporary tattoos.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"50",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "50", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -641,9 +667,9 @@ const EventPage = () => {
         tagline: 'Sketching whispers, dreams take shape With strokes of graphite, worlds escape.',
         description: "Welcome to a B&W sketching competition, where we eagerly anticipate your monochrome masterpiece to dazzle us.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"20",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "20", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -654,7 +680,8 @@ const EventPage = () => {
         date: '13-Oct-2024',
         venue: 'Mini audi',
         time: '1:30-3:00 PM',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/JLJ9GakYVRPPYcKH9"
       },
 
       {
@@ -665,9 +692,9 @@ const EventPage = () => {
         tagline: 'Brushstrokes on fabric, colors ignite,T shirt transformed, a wearable delight!',
         description: "Get ready to unleash your inner artist and splash your creativity onto a humble canvas of a T shirt in our exhilarating T shirt painting competition.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"150",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "150", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -678,7 +705,8 @@ const EventPage = () => {
         date: '  14-Oct-2024 ',
         venue: 'Mini Audi',
         time: '10:00AM- 12:00 PM',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/WUT3S18HVhiRSgHh7"
       },
       {
         title: "Mehendi Mania",
@@ -688,9 +716,9 @@ const EventPage = () => {
         tagline: 'An imprint of tradition, nature’s blossoms on your palms!',
         description: "Let the rich earthy scent of mehndi, guide your creativity and lead you to the finish line, in this mehndi designing competition.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"30",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "30", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -701,7 +729,8 @@ const EventPage = () => {
         date: ' 14-Oct-2024 ',
         venue: 'Mini Audi',
         time: '1:30PM- 3:00 PM',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/VLECJmo986s7MK6Y9"
       },
       {
         title: "Brush Of Pebbles",
@@ -711,9 +740,9 @@ const EventPage = () => {
         tagline: "On rugged stones, colors bloom and play Nature's canvas adorned, a rock's display!",
         description: "Welcome to this stone painting competition, where rocks transform into galleries. An amazing blend of human imagination with the beauty of nature.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"50",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "50", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -724,11 +753,12 @@ const EventPage = () => {
         date: '14-Oct-2024',
         venue: 'Mini Audi',
         time: '3:15PM- 5:15PM',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/fqc9mfWfciWMqmM27"
       },
 
     ],
- "Littmania": [
+    "Littmania": [
       {
         title: "Cineholics",
         registrationFees: "Rs.60 for team of 3 || Rs. 50 for team of 2  || Rs.30 for lonewolves",
@@ -737,9 +767,9 @@ const EventPage = () => {
         tagline: '',
         description: " Your ultimate movie and mega fandom quiz experience! Dive into the captivating world of cinema, web series, and OTT platforms as we test your knowledge and passion for the screen. Whether you're a film buff or a series enthusiast, this is your chance to shine and enjoy a thrilling challenge. Gather your friends, get ready to engage, and most importantly, have a fantastic time. Let the quiz begin and may the best cinephiles win!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"3",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:"",lonewolves:"30",twolonewolves:"50",threelonewolves:"60"},
+        minteamSize: "1",
+        maxteamSize: "3",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "", lonewolves: "30", twolonewolves: "50", threelonewolves: "60" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -750,7 +780,8 @@ const EventPage = () => {
         date: '10 October, 2024',
         venue: 'LT3',
         time: '9:00am',
-        rulebook: "https://drive.google.com/file/d/1BxX2XTXjOZErnUdu_hUpmvpoaZgIxJ_3/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1BxX2XTXjOZErnUdu_hUpmvpoaZgIxJ_3/view?usp=drive_link",
+        link:"https://forms.gle/Q5pdfPa3rpkUNmA37"
       },
       {
         title: "Cognizzia",
@@ -760,9 +791,9 @@ const EventPage = () => {
         tagline: '',
         description: "COGNIZZIA is an engaging and informative General Quiz that challenges participants with a diverse range of questions across various topics. Whether you are a trivia enthusiast or simply seeking to expand your knowledge, COGNIZZIA offers an enjoyable experience that stimulates the mind. Test your expertise on history, science, pop culture, geography, and much more, as you navigate through thought-provoking questions and discover fascinating facts. Sharpen your cognitive skills and have fun while exploring a world of intriguing information with COGNIZZIA: General Quiz.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"180",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "180", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -773,7 +804,8 @@ const EventPage = () => {
         date: '11th October , 2024 ',
         venue: '',
         time: '9:00 A.M',
-        rulebook: "https://drive.google.com/file/d/1vRT1WzhpwcX0iH5DPnKfYni5lcMr_QK-/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1vRT1WzhpwcX0iH5DPnKfYni5lcMr_QK-/view?usp=drive_link",
+        link:"https://forms.gle/YMijC99gEmvZoeHZ7"
       },
       {
         title: "Biocrux Jr.(MedQuiz)",
@@ -783,9 +815,9 @@ const EventPage = () => {
         tagline: '',
         description: "Subjects: All pre and para clinical subjects",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"180",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "180", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -796,7 +828,8 @@ const EventPage = () => {
         date: '12/10/2024',
         venue: '',
         time: '09.00 AM onwards',
-        rulebook: "https://drive.google.com/file/d/1L9qMfCZdMDlXgDPMq3P1zP8zKvfXKzkI/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1L9qMfCZdMDlXgDPMq3P1zP8zKvfXKzkI/view?usp=drive_link",
+        link:"https://forms.gle/oy9tEnWickw7EF7Y8"
       },
       {
         title: "Biocrux Sr.(MedQuiz)",
@@ -806,9 +839,9 @@ const EventPage = () => {
         tagline: '',
         description: "Subjects: All relevant clinical knowledge!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"210",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "210", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -819,7 +852,8 @@ const EventPage = () => {
         date: '13/10/2024',
         venue: 'Main Auditorium',
         time: ' 09.00 AM onwards',
-        rulebook: "https://drive.google.com/file/d/1Tp050gHuWs8pANsC8mJAKdzVFRMFODxj/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1Tp050gHuWs8pANsC8mJAKdzVFRMFODxj/view?usp=drive_link",
+        link:"https://forms.gle/F4kZ7VUNVDEEUV3W7"
       },
       {
         title: "Anime Quiz",
@@ -829,9 +863,9 @@ const EventPage = () => {
         tagline: '',
         description: "Get ready to test your knowledge of the vibrant world of anime .Join our anime quiz and showcase your expertise on various genres,characters and storylines . From classic mainstream series (Naruto, one-piece ,Bleach,death note , one punch man ,etc)to the latest releases(demon slayer , Jjk , chainsaw man , etc), our questions and rounds will challenge even the most dedicated otakus.Our quiz revolve around genre like action , romance, shounen , seinen , drama , etc and includes little to no manga , manhwa or manhua questions .",
         teamSize: "",
-        minteamSize:"4",
-        maxteamSize:"4",
-        fees:{perTeam:"180",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "4",
+        maxteamSize: "4",
+        fees: { perTeam: "180", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -852,9 +886,9 @@ const EventPage = () => {
         tagline: '',
         description: "Join us in this epic showcase of talents wherein participants enact the characters (from movies, books, sitcoms etc.) that they have grown up watching and have loved them dearly. Let the wheel of fortune do its wonders and be the chosen one reenacting your character. And the best part, let your creativity flow by imagining them in a totally different scenario.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"50",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "50", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -875,9 +909,9 @@ const EventPage = () => {
         tagline: '',
         description: "An event bringing out the perfect blend of your writing prowess and quick thinking skills to string words together and turn them into a beautiful story but not in the conventional way storytellers do. Pyrexia brings you 'unstory' where let your story be a joint effort with your teammates and the topic be oblivious to you till the clock starts ticking.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"120",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "120", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -897,9 +931,9 @@ const EventPage = () => {
         tagline: '',
         description: "This event is about seeing the world through a fresh lens, where words already exist but their new arrangement tells a different story. Dive into the world of found poetry, where creativity knows no bounds and inspiration is everywhere.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"50",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "50", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -920,9 +954,9 @@ const EventPage = () => {
         tagline: '',
         description: " An event of literary connections where book lovers, aspiring writers, and literary enthusiasts come together to share their passions in a fast-paced, engaging format. In this unique event, you'll have the opportunity to meet a diverse range of fellow bibliophiles and discuss your favorite books, authors, and literary genres in brief, dynamic conversations that would ultimately decide your fate in the game.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"60",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "60", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -943,9 +977,9 @@ const EventPage = () => {
         tagline: '',
         description: "एक ऐसा मंच जहाँ शब्दों की अद्भुत कलाकारी और भावनाओं की गहराई का अनुभव होता है। यह साहित्यिक मिलन का अवसर है, जहाँ हर कविता एक नई सोच और दृष्टिकोण को प्रस्तुत करती है।",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"60",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "60", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -966,9 +1000,9 @@ const EventPage = () => {
         tagline: '',
         description: "Welcome to Rhapsody, where a series of evocative images guide your words to create a story that resonates them. Each picture holds a piece of a story—waiting for you to bring it to life.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"50",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "50", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -989,9 +1023,9 @@ const EventPage = () => {
         tagline: '',
         description: "Subjects: All pre and para clinical subjects.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"180",perPerson:"60",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "180", perPerson: "60", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1012,9 +1046,9 @@ const EventPage = () => {
         tagline: '',
         description: " Step into the cerebral arena of intellectual duels, where minds clash and ideas ascend to their zenith. Prepare to embark on a voyage of rhetoric and wit, where the art of persuasion takes center stage. Engage in the prestigious Parliamentary Debate Competition and let your arguments resonate with eloquence and conviction.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"60",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "60", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1035,9 +1069,9 @@ const EventPage = () => {
         tagline: '',
         description: " Ladies and gentlemen, welcome to our exciting Just a Minute competition (JAM Session) Hereby, have two thrilling rounds of wordplay and wit where our competitors will showcase their skills in maintaining fluency, precision, and creativity under the pressure of the ticking clock.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"60",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "60", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1054,7 +1088,7 @@ const EventPage = () => {
 
 
     ],
-"Sinfonia": [
+    "Sinfonia": [
       {
         title: "TARANG: Indian Singing",
         registrationFees: "Solo: ₹150 | Duet: ₹200 | Group: ₹400",
@@ -1063,9 +1097,9 @@ const EventPage = () => {
         tagline: 'Soulful symphonies from the subcontinent',
         description: "Tarang - The Indian singing competition offers a stellar platform to showcase your expertise in Indian light music semi-classical Bollywood or folk genres. Embrace the opportunity to captivate the audience with your melodious voice!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"150",Duet:"200",perhead:"",groupTeam:"400"},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "150", Duet: "200", perhead: "", groupTeam: "400" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1076,7 +1110,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1IsYoMANTOpeGmKkyHEH0ICmGyVg-CuL7/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1IsYoMANTOpeGmKkyHEH0ICmGyVg-CuL7/view?usp=drive_link",
+        link:"https://forms.gle/bUhhHbDNzTNAYshQ9"
       },
       {
         title: "Euphonia: Western Singing",
@@ -1086,9 +1121,9 @@ const EventPage = () => {
         tagline: 'Euphonia Glory—Where Every Note Tells a Story!',
         description: "Euphonia: Western Singing Competition - Witness the raw power of the human voice in this electrifying singing competition where harmony reigns supreme. Each note, each harmony is pure talent and skill. Feel the energy as participants compete, blending voices in intricate arrangements that push the boundaries of vocal music. Who will rise above and claim the title of Euphonic champion?",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"150",Duet:"200",perhead:"",groupTeam:"400"},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "150", Duet: "200", perhead: "", groupTeam: "400" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1099,7 +1134,9 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1xRuSZXRGbB-KLvV_xECnP04m9wsxzhBO/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1xRuSZXRGbB-KLvV_xECnP04m9wsxzhBO/view?usp=drive_link",
+        link:"https://forms.gle/PMpS5hDxqMZyBvm88"
+        
       },
       {
         title: "METALLICA",
@@ -1109,9 +1146,9 @@ const EventPage = () => {
         tagline: 'Unleash Your Instrumental Fury and Set the Stage Ablaze',
         description: "Are you ready to let your instruments speak and your skills dazzle? Join us at Metallica where your chance to shine awaits! This high-energy competition invites instrumentalists from all backgrounds to showcase their prowess and electrify the stage with their talent. Whether you wield a guitar, drum, violin, or any other instrument, Metallica is your platform to demonstrate your virtuosity and creativity. Compete for thrilling prizes and the chance to become the ultimate instrumental champion. Don't miss this opportunity to make your mark and set the stage on fire with your exceptional skills. Step up, show off, and let your music roar!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"200",Duet:"300",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "200", Duet: "300", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1122,7 +1159,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/10gkv29sR63ilc9Uec2282_siGZdNcN3f/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/10gkv29sR63ilc9Uec2282_siGZdNcN3f/view?usp=drive_link",
+        link:"https://forms.gle/oimAW6WLcu3JTzXL9"
       },
       {
         title: "BATTLE OF BANDS",
@@ -1132,9 +1170,9 @@ const EventPage = () => {
         tagline: 'Ignite the Stage Rock the Fest',
         description: "Are you ready to turn up the volume and unleash your musical prowess? Join us at Pyrexia 4.0 for the ultimate Battle of the Bands! This electrifying competition is your chance to showcase your band's talent, energy, and creativity in front of an enthusiastic crowd. Compete for top honors and exciting prizes as you go head-to-head with the best musical acts in college. Whether you rock, groove, or experiment with unique sounds, this is your moment to shine. Sign up now and get ready to claim your spot as the reigning champions of Pyrexia!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"1000",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "1000", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1145,7 +1183,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1KME7mWpIdjJ9mdQW_KNL6LRtJbOPfqIH/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1KME7mWpIdjJ9mdQW_KNL6LRtJbOPfqIH/view?usp=drive_link",
+        link:"https://forms.gle/3URH4uxUwykUvkai6"
       },
       {
         title: "RHYTHM REVOLUTION - RAP BATTLE AND BEATBOXING",
@@ -1155,9 +1194,9 @@ const EventPage = () => {
         tagline: 'Voice the words. Dominate the beat.',
         description: "Unleash your lyrical and rhythmic genius at our Rap and Beatboxing Battle! This competition is the right opportunity for you to battle it out with fellow contestants in a high-energy face-off, where creativity, flow, and originality reign supreme. Show us what you've got and claim the title of the Revolutionist!",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"100",Duet:"150",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "100", Duet: "150", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1168,7 +1207,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1bYcp1_0lwpZKrcQNzbO3LH-LIUDC7uOK/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1bYcp1_0lwpZKrcQNzbO3LH-LIUDC7uOK/view?usp=drive_link",
+        link:"https://forms.gle/WkEwKF8Ey23FKUERA"
       },
 
     ],
@@ -1181,9 +1221,9 @@ const EventPage = () => {
         tagline: 'Drama Beyond the Walls',
         description: "A Nukkad Natak is a form of street theatre in India that uses a mix of dialogue, music, and dance to address social issues and entertain audiences. Performed in open spaces, it aims to engage the public with its vibrant and interactive storytelling.",
         teamSize: "3-5",
-        minteamSize:"3",
-        maxteamSize:"5",
-        fees:{perTeam:"500",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "3",
+        maxteamSize: "5",
+        fees: { perTeam: "500", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1194,7 +1234,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/13vWvQHKbljpjy1VjoNtXTfD8c7zUNFtp/view?usp=drive_link" // This can be optional
+        rulebook: "https://drive.google.com/file/d/13vWvQHKbljpjy1VjoNtXTfD8c7zUNFtp/view?usp=drive_link" ,
+        link:"https://forms.gle/ZxY4RkBcBWoXz7Lg6"
       },
       {
         title: "Echoes of Expressions: Monoact and Mime competition",
@@ -1204,9 +1245,9 @@ const EventPage = () => {
         tagline: 'One Stage, Infinite Expressions',
         description: "The Monoact Competition is an exciting theatrical event that showcases the talent and versatility of participants as they take the stage alone to perform captivating solo acts. Mime is a unique and captivating form of non-verbal performance art that relies solely on body movements, gestures, facial expressions, and actions to convey emotions, tell stories, and communicate with the audience.",
         teamSize: "3-5",
-        minteamSize:"3",
-        maxteamSize:"5",
-        fees:{perTeam:"120",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "3",
+        maxteamSize: "5",
+        fees: { perTeam: "120", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1217,7 +1258,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1cK-tw-2qkzzNkYRjA2AhvM9cq8DzUQ5p/view?usp=drive_link" // This can be optional
+        rulebook: "https://drive.google.com/file/d/1cK-tw-2qkzzNkYRjA2AhvM9cq8DzUQ5p/view?usp=drive_link" ,
+        link:"https://forms.gle/AxabSdv2QQFoLeLZ9"
       },
 
       // Add more events as needed
@@ -1229,9 +1271,9 @@ const EventPage = () => {
         tagline: 'Where Jokes Take the Stage and Laughter Reigns Supreme',
         description: "Comic Combat is a vibrant intercollege comedy competition that showcases the freshest comedic talent in PYREXIA 2024. Participants face off in a high-energy contest delivering their best stand-up routines to win over the audience and judges. Expect a night filled with memorable performances, spontaneous laughs, and fierce competition as the funniest college comedians battle it out for the top spot.",
         teamSize: "3-5",
-        minteamSize:"3",
-        maxteamSize:"5",
-        fees:{perTeam:"",perPerson:"100",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "3",
+        maxteamSize: "5",
+        fees: { perTeam: "", perPerson: "100", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1242,7 +1284,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "" // This can be optional
+        rulebook: "",
+        link:"https://forms.gle/jvUEeYcR2rEoYkv48" // This can be optional
       },
       // Add more events as needed
       {
@@ -1253,9 +1296,9 @@ const EventPage = () => {
         tagline: 'DRAMA bhi DEAL bhi',
         description: "In Madd Angle, participants (solo or team) will be given a random prop impromptu and will have to bring it to life through either a captivating sales pitch or a dramatic performance. Whether it's through persuasive storytelling or engaging drama, each performance promises to be a one-of-a-kind experience.",
         teamSize: "3-5",
-        minteamSize:"3",
-        maxteamSize:"5",
-        fees:{perTeam:"",perPerson:"100",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "3",
+        maxteamSize: "5",
+        fees: { perTeam: "", perPerson: "100", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1266,7 +1309,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1blMAhADdQmcWgLqNrtIWbilb-lpN4V7S/view?usp=drive_link" // This can be optional
+        rulebook: "https://drive.google.com/file/d/1blMAhADdQmcWgLqNrtIWbilb-lpN4V7S/view?usp=drive_link" ,
+        link:"https://forms.gle/dKdTKnd6a4BYmReS9"
       },
     ],
     "Thunderbolt": [
@@ -1278,9 +1322,9 @@ const EventPage = () => {
         tagline: '',
         description: "Knockout matches with the winner from each pool advancing to the finals.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"75",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "75", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1291,7 +1335,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1zHZR1yCkuo3CRVBGySaGyqF_1QrsAqIM/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1zHZR1yCkuo3CRVBGySaGyqF_1QrsAqIM/view?usp=drive_link",
+        link:"https://forms.gle/paFvkghbLBPNFLZR9"
       },
       {
         title: "COD MOBILE (MULTIPLAYER)",
@@ -1301,9 +1346,9 @@ const EventPage = () => {
         tagline: '',
         description: "Multiplayer COD Mobile tournament with knockout matches, maps, and modes fixed after fixtures.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"300",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "300", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1314,7 +1359,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1uMjBhDTzLcb0MG7YOYi4ZZ54KCjg9Kmv/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1uMjBhDTzLcb0MG7YOYi4ZZ54KCjg9Kmv/view?usp=drive_link",
+        link:"https://forms.gle/Cjeamw3RciVZvc349"
       },
       {
         title: "TEKKEN",
@@ -1324,9 +1370,9 @@ const EventPage = () => {
         tagline: '',
         description: "Knockout matches with the winner from each pool advancing to the finals.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"75",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "75", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1337,7 +1383,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1iwrVdEmrzlnQLJuGyNalTCw2F76s8ryf/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1iwrVdEmrzlnQLJuGyNalTCw2F76s8ryf/view?usp=drive_link",
+        lik:"https://forms.gle/brb5PFCbhJ1S5WBd9"
       },
       {
         title: "FIFA",
@@ -1347,9 +1394,9 @@ const EventPage = () => {
         tagline: '',
         description: "Knockout FIFA matches with winners from each pool advancing to the finals.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"",perPerson:"180",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "", perPerson: "180", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1360,7 +1407,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1Nh-C3Div0TMFjYe-oF96BMwCWCnaraCf/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1Nh-C3Div0TMFjYe-oF96BMwCWCnaraCf/view?usp=drive_link",
+        link:"https://forms.gle/zLCooSckUoHbSP2e7"
       },
       {
         title: "BGMI (BATTLE ROYALE)",
@@ -1370,9 +1418,9 @@ const EventPage = () => {
         tagline: '',
         description: "BGMI tournament with league stage and final round, top 16 teams advance to final.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"400",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "400", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1383,7 +1431,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1r__Vl1AUoiKjflXMT41cyhbbo7I_dHeP/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1r__Vl1AUoiKjflXMT41cyhbbo7I_dHeP/view?usp=drive_link",
+        link:"https://forms.gle/XUkESM29CPTYtqc66"
       },
       {
         title: "BGMI (TEAM DEATH MATCH)",
@@ -1393,9 +1442,9 @@ const EventPage = () => {
         tagline: '',
         description: "BGMI Team Death Match with 4 players per team, first team to 40 kills wins.",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"200",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "200", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1406,7 +1455,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "https://drive.google.com/file/d/1r__Vl1AUoiKjflXMT41cyhbbo7I_dHeP/view?usp=drive_link"
+        rulebook: "https://drive.google.com/file/d/1r__Vl1AUoiKjflXMT41cyhbbo7I_dHeP/view?usp=drive_link",
+        link:"https://forms.gle/XUkESM29CPTYtqc66"
       },
     ],
     "Velocity": [
@@ -1419,9 +1469,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"20",
-        fees:{perTeam:"1000",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "20",
+        fees: { perTeam: "1000", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1432,7 +1482,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/rRMjbLiDjuWrd4Dk9"
       },
       {
         title: "Boys Basketball",
@@ -1442,9 +1493,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"20",
-        fees:{perTeam:"1000",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "20",
+        fees: { perTeam: "1000", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1455,7 +1506,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/j7SkFtcLVMtmw77G7"
       },
       {
         title: "Table Tennis Singles",
@@ -1465,9 +1517,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"150",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "150", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1478,7 +1530,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:""
       },
       {
         title: "Table Tennis Doubles",
@@ -1488,9 +1541,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"20",
-        fees:{perTeam:"300",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "20",
+        fees: { perTeam: "300", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1511,9 +1564,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"300",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "300", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1534,9 +1587,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"1000",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "1000", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1547,7 +1600,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/XJuThL5FCeVzdXYKA"
       },
       {
         title: "Boys Kabaddi",
@@ -1557,9 +1611,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"1200",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "1200", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1570,7 +1624,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/79sLWmCLsAMYD7hz9"
       },
       {
         title: "Volleyball",
@@ -1580,9 +1635,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"1500",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "1500", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1593,7 +1648,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/1AcydsY1XKioYdX49"
       },
       {
         title: "Football (Boys Only)",
@@ -1603,9 +1659,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"2500",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "2500", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1616,7 +1672,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/io84B5XVfsr79zJN9"
       },
       {
         title: "Futsal (Boys Only)",
@@ -1626,9 +1683,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"1400",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "1400", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1639,7 +1696,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/w38VPpCfSVcx1f2L7"
       },
       {
         title: "Tennis Singles",
@@ -1649,9 +1707,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"150",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "150", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1662,7 +1720,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/TRmVukDEyVtESqZt5"
       },
       {
         title: "Tennis Doubles",
@@ -1672,9 +1731,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"300",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "300", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1685,7 +1744,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/TRmVukDEyVtESqZt5"
       },
       {
         title: "Tennis Mixed Doubles",
@@ -1695,9 +1755,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"300",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "300", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1708,7 +1768,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/TRmVukDEyVtESqZt5"
       },
       {
         title: "Chess",
@@ -1718,9 +1779,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"15",
-        fees:{perTeam:"500",perPerson:"100",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "15",
+        fees: { perTeam: "500", perPerson: "100", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1731,7 +1792,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/huBpo9rx1c5HPXnW6"
       },
       {
         title: "Badminton Singles",
@@ -1741,9 +1803,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"2",
-        fees:{perTeam:"225",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "2",
+        fees: { perTeam: "225", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1754,7 +1816,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/faiw5TrK1WqQ9sEQ7"
       },
       {
         title: "Badminton Doubles",
@@ -1764,9 +1827,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"4",
-        fees:{perTeam:"450",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "4",
+        fees: { perTeam: "450", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1777,7 +1840,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/faiw5TrK1WqQ9sEQ7"
       },
       {
         title: "Badminton Mixed Doubles",
@@ -1787,9 +1851,9 @@ const EventPage = () => {
         tagline: '',
         description: "",
         teamSize: "",
-        minteamSize:"1",
-        maxteamSize:"8",
-        fees:{perTeam:"450",perPerson:"",singleBoy:"",singleGirl:"",Couple:"",Solo:"",Duet:"",perhead:""},
+        minteamSize: "1",
+        maxteamSize: "8",
+        fees: { perTeam: "450", perPerson: "", singleBoy: "", singleGirl: "", Couple: "", Solo: "", Duet: "", perhead: "" },
         contact1Name: '',
         contact1: '',
         contact2Name: '',
@@ -1800,7 +1864,8 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "",
+        link:"https://forms.gle/faiw5TrK1WqQ9sEQ7"
       },
 
 
