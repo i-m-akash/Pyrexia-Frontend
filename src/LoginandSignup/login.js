@@ -14,7 +14,7 @@ const Login = () => {
     const handleLogin = async(e) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`${BASE_URL}/login`, { email, password });
+            const response = await axios.post("https://pyrexia-backend.onrender.com/login", { email, password });
             alert(response.data.message);
             if (response.data.success) {
                 navigate('/'); // redirect to dashboard on successful login
