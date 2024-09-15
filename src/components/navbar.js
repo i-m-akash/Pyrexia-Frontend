@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { Link } from 'react-router-dom'
 import img from "../Images/logo.webp";
 import { BASE_URL } from '../BaseUrl';
 const Navbar = () => {
@@ -34,24 +35,24 @@ const Navbar = () => {
 
   const loggedInButtons = (
     <>
-      <a href="/" className={buttonClasses}>Home</a>
-      <a href="/events" className={buttonClasses}>Events</a>
+      <Link to="/" className={buttonClasses}>Home</Link>
+     <Link to ="/events" className={buttonClasses}>Events</Link>
       {/* <a href="/profile" className={buttonClasses}>Profile</a> */}
-      <a href="/starnight" className={buttonClasses}>Star Night</a>
+      <Link to="/starnight" className={buttonClasses}>Star Night</Link>
       <a href="https://drive.google.com/file/d/12CP4PlhrVhJ4Hi_NVYIhn5B-wWi2q3kr/view?usp=drive_link" className={buttonClasses}>Brochure</a>
       <button onClick={handleLogout} className={buttonClasses}>Logout</button>
-      <a href="/cart" className={buttonClasses}> &#128722;</a>
+      <Link to="/cart" className={buttonClasses}> &#128722;</Link>
     </>
   );
 
   const loggedOutButtons = (
     <>
-      <a href="/" className={buttonClasses}>Home</a>
-      <a href="/events" className={buttonClasses}>Events</a>
-      <a href="/starnight" className={buttonClasses}>Star Night</a>
+      <Link to="/" className={buttonClasses}>Home</Link>
+      <Link to="/events" className={buttonClasses}>Events</Link>
+      <Link to="/starnight" className={buttonClasses}>Star Night</Link>
       <a href="https://drive.google.com/file/d/12CP4PlhrVhJ4Hi_NVYIhn5B-wWi2q3kr/view?usp=drive_link" className={buttonClasses}>Brochure</a>
-      <a href="/login" className={buttonClasses}>Login</a>
-      <a href="/cart" className={buttonClasses}> &#128722;</a>
+      <Link to="/login" className={buttonClasses}>Login</Link>
+      <Link to="/cart" className={buttonClasses}> &#128722;</Link>
     </>
   );
   
