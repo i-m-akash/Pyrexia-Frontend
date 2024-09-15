@@ -48,7 +48,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '9 pm',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1OyNQbjsaV8uXSsun9jhMyxym8NjHMkFe/view?usp=drive_link",
         link:"https://forms.gle/iAj4YXJDZD9iSNGy7"
       },
       {
@@ -72,7 +72,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1OPy1mqe8DwenNacgL0hKqnp7IcVv6Xar/view?usp=drive_link",
         link:"https://forms.gle/yvbk1PMNrzbDcvp58"
       },
       {
@@ -96,7 +96,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1vYhqvNdkauWv8NI8LA0zNo_4U0mFOJUR/view?usp=drive_link",
         link:"https://forms.gle/Xz9xb8N2Mo8MomQ9A"
       },
       {
@@ -120,7 +120,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1BV4KNq1ARgTsIFufl7zuVxWgVOB-Rqgo/view?usp=drive_link",
         link:"https://forms.gle/xorQTwS7zrbEf7cz9"
       },
       {
@@ -144,7 +144,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/10fZS2VeYHRqXFpjZmTKyOBm9rhm87On5/view?usp=drive_link",
         link:"https://forms.gle/miudPVVzfqYPf17bA"
       },
       {
@@ -168,7 +168,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1kKWF71lNzkYDuHccuKuki5ArbbBHqWLM/view?usp=drive_link",
         link:"https://forms.gle/ttCSdBCqGNgQYDnw7"
       },
       {
@@ -192,7 +192,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1ZBUXYzaq8JI4XNuGodGSaaiHuCZc-ghs/view?usp=drive_link",
         link:"https://forms.gle/Q6BKkAfeV9hsut297"
       },
       {
@@ -216,7 +216,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1-ecNm4ybfrMdt5Zk7BFJcoSl3uVckP0u/view?usp=drive_link",
         link:"https://forms.gle/vCDPacmGsPnzg9af9"
       },
       {
@@ -240,7 +240,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1gdoCEIQFvni5W-u63jacxs1dkiwIOVom/view?usp=drive_link",
         link:"https://forms.gle/fh1BZ5oRUhGaZery5"
       },
       {
@@ -264,7 +264,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1fC1cmwmZ5h_Y6qBoCOCkZ1rDWzeM7-K_/view?usp=drive_link",
         link:"https://forms.gle/N8bnqkZgSKugnoAp7"
       },
       {
@@ -288,7 +288,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1osMZ_my48pVu_CvKdJWu5FozP9c-Ai6X/view?usp=drive_link",
         link:"https://forms.gle/PA67eJwyMheS3aqr9"
       },
       {
@@ -312,7 +312,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1OPdOLl-vhdpeff5PLmB_WUY9JK3IDnAi/view?usp=drive_link",
         link:"https://forms.gle/LLRR1ouWmPVfevCG9"
       },
       {
@@ -336,7 +336,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1JIjvlMKlT_IBodiv_r6iUu7lAk3txk2U/view?usp=drive_link",
         link:"https://forms.gle/yCZvAcqZHSwJKQ8i9"
       },
       {
@@ -360,7 +360,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1CwEs5V95YNRIqVSnPUwFTrIPXPIzwjq0/view?usp=drive_link",
         link:"https://forms.gle/tedaFiCmKMtNae1M6"
       },
       {
@@ -384,7 +384,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1Y1FfOlcL2DeLq0cQgePHc-6nZsQEEJw5/view?usp=drive_link",
         link:"https://forms.gle/jV4jKHiFm4kaGkSR8"
       },
       {
@@ -1036,7 +1036,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "https://drive.google.com/file/d/1L9qMfCZdMDlXgDPMq3P1zP8zKvfXKzkI/view?usp=drive_link"
       },
       {
         title: "The War of Wits(Debate Competition)",
@@ -1284,7 +1284,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1HmlfdJgxfAZ3LfpEiJ7H3fRGATY_RCGH/view?usp=drive_link",
         link:"https://forms.gle/jvUEeYcR2rEoYkv48" // This can be optional
       },
       // Add more events as needed
@@ -1482,7 +1482,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1f12khueXZe0T6A8kPDB_fZc4H0vi3wSs/view?usp=drive_link",
         link:"https://forms.gle/rRMjbLiDjuWrd4Dk9"
       },
       {
@@ -1506,7 +1506,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1f12khueXZe0T6A8kPDB_fZc4H0vi3wSs/view?usp=drive_link",
         link:"https://forms.gle/j7SkFtcLVMtmw77G7"
       },
       {
@@ -1530,7 +1530,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1XnONVNs2A3wyscu3RSvj7Lumv3ete_Dj/view?usp=drive_link",
         link:""
       },
       {
@@ -1554,7 +1554,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "https://drive.google.com/file/d/1mtzo0-RRNJ8zVRqc0KI2TL2BtY063H6B/view?usp=drive_link"
       },
       {
         title: "Table Tennis Mixed Doubles",
@@ -1577,7 +1577,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: ""
+        rulebook: "https://drive.google.com/file/d/1mtzo0-RRNJ8zVRqc0KI2TL2BtY063H6B/view?usp=drive_link"
       },
       {
         title: "Girls Kabaddi",
@@ -1600,7 +1600,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1K2xFNAnhjUgEj2zbOrVTVvlcf545qFk1/view?usp=drive_link",
         link:"https://forms.gle/XJuThL5FCeVzdXYKA"
       },
       {
@@ -1624,7 +1624,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1K2xFNAnhjUgEj2zbOrVTVvlcf545qFk1/view?usp=drive_link",
         link:"https://forms.gle/79sLWmCLsAMYD7hz9"
       },
       {
@@ -1648,7 +1648,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1pv6yU22vazu1LWjyJdmxF3F9CSkGO-dj/view?usp=drive_link",
         link:"https://forms.gle/1AcydsY1XKioYdX49"
       },
       {
@@ -1672,7 +1672,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1asGF846TICx4gep2PKXnZoorWldwNJ6M/view?usp=drive_link",
         link:"https://forms.gle/io84B5XVfsr79zJN9"
       },
       {
@@ -1696,7 +1696,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1JNGolcwyv9Nl5iyXEaBZEYDuYIOmsLzl/view?usp=drive_link",
         link:"https://forms.gle/w38VPpCfSVcx1f2L7"
       },
       {
@@ -1720,7 +1720,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/158g-A6uqIk56J9yKOzJcWx5jlGiHHoXh/view?usp=drive_link",
         link:"https://forms.gle/TRmVukDEyVtESqZt5"
       },
       {
@@ -1744,7 +1744,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/158g-A6uqIk56J9yKOzJcWx5jlGiHHoXh/view?usp=drive_link",
         link:"https://forms.gle/TRmVukDEyVtESqZt5"
       },
       {
@@ -1768,7 +1768,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/158g-A6uqIk56J9yKOzJcWx5jlGiHHoXh/view?usp=drive_link",
         link:"https://forms.gle/TRmVukDEyVtESqZt5"
       },
       {
@@ -1792,7 +1792,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/1qbM_fxfCM4-4ZrURzmlCCP_5NnV38-I-/view?usp=drive_link",
         link:"https://forms.gle/huBpo9rx1c5HPXnW6"
       },
       {
@@ -1816,7 +1816,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/14pfPj5HvuLY8K0xwk2MxkFiyWcNAGfc_/view?usp=drive_link",
         link:"https://forms.gle/faiw5TrK1WqQ9sEQ7"
       },
       {
@@ -1840,7 +1840,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/14pfPj5HvuLY8K0xwk2MxkFiyWcNAGfc_/view?usp=drive_link",
         link:"https://forms.gle/faiw5TrK1WqQ9sEQ7"
       },
       {
@@ -1864,7 +1864,7 @@ const EventPage = () => {
         date: '',
         venue: '',
         time: '',
-        rulebook: "",
+        rulebook: "https://drive.google.com/file/d/14pfPj5HvuLY8K0xwk2MxkFiyWcNAGfc_/view?usp=drive_link",
         link:"https://forms.gle/faiw5TrK1WqQ9sEQ7"
       },
 
