@@ -3,19 +3,19 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css"; // Create this file for custom styles
-import img1 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-53-15.jpg";
-import img2 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-53-33.jpg";
-import img3 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-54-35.jpg";
-import img4 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-55-26.jpg";
-import img5 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-58-16.jpg";
-import img6 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-00-28.jpg";
-import img7 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-05-07.jpg";
-import img8 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-06-24.jpg";
-import img9 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-06-42.jpg";
-import img10 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-07-10.jpg";
-import img11 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-07-28.jpg";
-import img12 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-08-16.jpg";
-import img13 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-09-02.jpg";
+import img1 from "../ImagesPHOTO-2024-08-15-18-53-15.jpg";
+import img2 from "../Images/PHOTO-2024-08-15-18-53-33.jpg";
+import img3 from "../Images/PHOTO-2024-08-15-18-54-35.jpg";
+import img4 from "../Images/PHOTO-2024-08-15-18-55-26.jpg";
+import img5 from "../Images/PHOTO-2024-08-15-18-58-16.jpg";
+import img6 from "../Images/PHOTO-2024-08-15-19-00-28.jpg";
+import img7 from "../Images/PHOTO-2024-08-15-19-05-07.jpg";
+import img8 from "../Images/PHOTO-2024-08-15-19-06-24.jpg";
+import img9 from "../Images/PHOTO-2024-08-15-19-06-42.jpg";
+import img10 from "../Images/PHOTO-2024-08-15-19-07-10.jpg";
+import img11 from "../Images/PHOTO-2024-08-15-19-07-28.jpg";
+import img12 from "../Images/PHOTO-2024-08-15-19-08-16.jpg";
+import img13 from "../Images/PHOTO-2024-08-15-19-09-02.jpg";
 
 
 
