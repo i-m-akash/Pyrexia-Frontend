@@ -56,7 +56,7 @@ const Footer = () => {
                     <p className='max-w-[16rem] pt-4 text text-white'>AIIMS Rishikesh, Virbhadra Road, Rishikesh · Uttarakhand- 249 203, India</p>
                     <p className='pt-2 text-white'>Contact : <a href="tel:+918875666240" className='text-blue-700 ml-2 font-semibold'>+918875666240</a></p>
                     <p className='pt-2'><a href="tel:+917814887657" className='text-blue-700 ml-20 font-semibold'>+917814887657</a></p>
-                    <p className='pt-2 text-white'>Mail : <a href="mailto:studentwelfarebody@aiimsrishikesh.edu.in" className='text-blue-700 ml-2 font-semibold'>studentwelfarebody@aiimsrishikesh.edu.in</a></p>
+                    <p className='pt-2 text-white'>Mail : <a href="mailto:aiims.rsk@gmail.com" className='text-blue-700 ml-2 font-semibold'>aiims.rsk@gmail.com</a></p>
                 </div>
 
             </div>
