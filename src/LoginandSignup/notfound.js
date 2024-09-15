@@ -1,6 +1,6 @@
 import React from 'react';
 import "./login.css";
-
+import { Link } from 'react-router-dom'
 function Notfound() {
     
     return (
@@ -8,9 +8,9 @@ function Notfound() {
   <h1 className="text-3xl font-bold text-red-600 mb-4">
     User Not Found
   </h1>
-  <a href="/signup" className="text-[#083765] hover:underline text-lg">
+  <Link to="/signup" className="text-[#083765] hover:underline text-lg">
     Signup
-  </a>
+  </Link>
 </div>
 
     );
