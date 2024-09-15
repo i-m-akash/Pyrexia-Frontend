@@ -8,9 +8,7 @@ const SubEventDetails = () => {
   const handleClick = () => {
     navigate('/events',{ state: { subEvent } });
   };
-  const handleRegisterClick = () => {
-    navigate('/registerevent', { state: { subEvent } });  // Replace '/register' with your desired route
-  };
+  
   if (!subEvent) {
     return <p>Error: No event data available.</p>; // Handle the case where no event data is available
   }
@@ -68,8 +66,8 @@ const SubEventDetails = () => {
         </a>
       )}
 
-      <button onClick={handleRegisterClick} className="block bg-[#001f3f] hover:bg-gradient-to-t from-blue-800 via-blue-500 to-navy-700 , text-white mt-4 py-2 px-4 rounded text-md  md:text-lg ">
-        Register
+      <button className="block bg-[#001f3f] hover:bg-gradient-to-t from-blue-800 via-blue-500 to-navy-700 , text-white mt-4 py-2 px-4 rounded text-md  md:text-lg ">
+        <a href={subEvent.link}>Register</a>
       </button>
       </div>
     </div>
