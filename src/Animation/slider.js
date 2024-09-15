@@ -3,15 +3,25 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css"; // Create this file for custom styles
-import Alfresco from "../Images/Alfresco.png";
-import Kalakriti from "../Images/Kalakriti.png";
-import Littmania from "../Images/Littmania.png";
-import Solasta from "../Images/Solasta.png";
-import Thunderbolt from "../Images/Thunderbolt.png";
+import img1 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-53-15.jpg";
+import img2 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-53-33.jpg";
+import img3 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-54-35.jpg";
+import img4 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-55-26.jpg";
+import img5 from "../Images/Selected Photoes/PHOTO-2024-08-15-18-58-16.jpg";
+import img6 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-00-28.jpg";
+import img7 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-05-07.jpg";
+import img8 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-06-24.jpg";
+import img9 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-06-42.jpg";
+import img10 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-07-10.jpg";
+import img11 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-07-28.jpg";
+import img12 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-08-16.jpg";
+import img13 from "../Images/Selected Photoes/PHOTO-2024-08-15-19-09-02.jpg";
+
+
 
 const Slider1 = () => {
   const images = [
-   Alfresco,Kalakriti,Littmania,Solasta,Thunderbolt
+    img1,img2,img3,img4,img8,img5,img6,img7,img9,img10,img11,img12,img13
   ];
   const settings = {    
     dots: true,
@@ -20,18 +30,19 @@ const Slider1 = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1800,
     cssEase: "linear",
   };
 
   return (
     <div className="image-slider">
+      <div className="text-white text-3xl md:text-4xl lg:text-5xl font-semibold font-sant-serif poppins py-20 animate-bounce">Gallery</div>
       <Slider {...settings}>
         {images.map((image, index) => (
     
           <div key={index}>
 
-            <img src={image} className='w-80 h-auto'alt={`Slide ${index}`} />
+            <img src={image} className='w-[50%] md:w-[40%] lg:w-[30%] border rounded-md shadow-xl h-auto'alt={`Slide ${index}`} />
           </div>
         ))}
         
