@@ -42,7 +42,7 @@ const Slider1 = () => {
     
           <div key={index}>
 
-            <img src={image} className='w-[50%] md:w-[40%] lg:w-[30%] border rounded-md shadow-xl h-auto'alt={`Slide ${index}`} />
+            <img src={image} className='w-[70%] md:w-[50%] lg:w-[40%] border rounded-md shadow-xl h-auto'alt={`Slide ${index}`} />
           </div>
         ))}
         
